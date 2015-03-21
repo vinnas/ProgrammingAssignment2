@@ -1,6 +1,6 @@
 ##function to create special matrix
 
-makeCatcheMatrix<-function(x=matrix(1:4,2,2))
+makeCatcheMatrix<-function(x=matrix())
 {
 	##checking whether the matrix is inversable.
 	if(class(try(solve(x)))=="try-error")
